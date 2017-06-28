@@ -38,13 +38,16 @@ It contains the following variables
 - Wind: Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport.
 - Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
 - Month: Month (1--12)
-- Day: Day of month (1--31)
+
 
 We are going to explore the relationship between solar radiation and other selected variables, solar radiation, wind, and temperature.
 
 # Method
-
 First, we tidy the names of the dataset, to provide information about the units of measurement for Ozone, Solar Radiation, Wind, and Temperature. We do this by renaming the variables and adding a suffix at the end to describe the units. To do this we use the `rename` function from the `dplyr` package[@dplyr].
+
+#On verra plus tard
+test avec github
+
 
 ```{r tidy-data}
 
